@@ -1,0 +1,40 @@
+# =========================
+# IDE/Editor
+# =========================
+
+.vscode/
+.idea/
+.vs/
+.clangd/
+
+# =========================
+# Build
+# =========================
+
+compile_commands.json
+cmake-build*/
+*build/
+build*/
+*.profraw
+*.foe-config.yml
+
+# =========================
+# CMake
+# =========================
+
+CMakeLists.txt.user
+
+# =========================
+# Vulkan
+# =========================
+
+*.out
+vksbc*
+
+# =========================
+# Other
+# =========================
+
+.directory
+./Dockerfile
+imgui.ini
